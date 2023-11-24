@@ -19,7 +19,7 @@ function Patricia() {
             <MdLocationPin />Local: São Paulo - SP
           </Link>
           <Link  href="https://tricia-sz.netlify.app/" className="flex gap-2 hover hover:text-emerald-500 mt-4 ">
-            <FaChrome /> Portifólio do candidato(a)
+            <FaChrome /> Portfólio do candidato(a)
           </Link>
           <Link href="https://github.com/tricia-sz" className="flex gap-2 hover hover:text-emerald-500 mt-4 ">
             <FaGithub />Perfil do Github 

@@ -45,15 +45,15 @@ export default function Home() {
 
     {/* QUESTOES */}
 
-    <h2 className="text-4xl text-emerald-700 mb-10 mt-16">Questões</h2>
-    <section className="text-3xl bg-slate-400 py-4 px-4 justify-center items-center container rounded-xl mb-8">
+    <h2 className="text-4xl text-emerald-700 mb-10 mt-16 font-light">Questões</h2>
+    <section className="text-3xl bg-gradient-to-bl from-slate-300 from-10% via-teal-100 via-30% to-slate-300 to-90%  py-4 px-4 justify-center items-center container rounded-xl mb-8">
       <div className="">
-        <p className="text-emerald-900 text-3xl items-center flex  mb-2 mt-4">Questão 1:</p>
-        <p className="text-emerald-900 text-2xl font leading-relaxed font-light">
+        <p className="text-green-900 text-3xl items-center flex  mb-2 mt-4 font-light">Questão 1:</p>
+        <p className="text-green-900 text-2xl font leading-relaxed font-light">
           O parâmetro numbers é um Array. Sua tarefa é percorrer esse array e:
           se for divizivel por 5, print "buzz". Se for divisivel por 3 e 5, print "fizzBuzz"
         </p>
-        <span className="text-emerald-700 pl-4 text-lg">
+        <span className="text-emerald-300 pl-4 text-lg">
           Solução:
           <div>
             <Image alt="codigo resolvido" src={fizzbuzz}  className="object-cover rounded-xl mb-4 cursor-default hover:scale-110 transition-transform" >
@@ -64,9 +64,9 @@ export default function Home() {
         </span>
       </div>
     </section>
-    <section className="text-3xl bg-slate-400 py-4 px-4 justify-center items-center container rounded-xl mb-4 ">
+    <section className="text-3xl bg-gradient-to-bl from-slate-300 from-10% via-teal-100 via-30% to-slate-300 to-90%  py-4 px-4 justify-center items-center container rounded-xl mb-4 ">
       <div className="">
-        <p className="text-emerald-900 text-3xl items-center flex  mb-2 mt-4">Questão 2:</p>
+        <p className="text-emerald-900 text-3xl items-center flex  mb-2 mt-4 font-light">Questão 2:</p>
         <p className="text-emerald-900 text-2xl font leading-relaxed font-light">
           Temos uma variável book. Ela é uma string e contem apenas letras minúsculas sem acento e espaços. <br />
            Sua tarefa é percorrer a variável book e contar a quantidade de ocorrências de cada letra E o número de palavras.<br />

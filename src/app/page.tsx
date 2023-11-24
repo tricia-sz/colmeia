@@ -20,20 +20,20 @@ export default function Home() {
         </div>
           <div>
             <div className="text-left  text-2xl mt-8 text-slate-500 align-baseline leading-relaxed">
-              <p className="font-light cursor-default hover:scale-110 transition-transform">
+              <p className="font-light ">
               A <Link href="https://colmeia.me/" className="text-emerald-500 font-bold">Colmeia</Link> é a tecnologia líder do mercado em comunicação digital. A plataforma possui atendimento automatizado, atendimento humano, marketing e analytics. Recebemos milhares de conexões por segundo, trabalhamos com tecnologia de ponta, clientes importantes. 
               </p>
             </div>
           </div>
       </section>
-     <MdHive size={150} className="text-slate-400"/>
+     <MdHive size={80} className="text-slate-400"/>
       <section className=" w-full container gap-2 py-16 px-4">
         <div className=" w-full flex ml-4">
          <h1 className="text-left font-bold text-3xl  text-slate-700">Sobre a Vaga: <span className=" text-emerald-500 font-medium">Desenvolvedor de APIs – Javascript</span></h1>
         </div>
           <div>
-            <div className="text-left  text-2xl mt-8 text-slate-500 align-baseline leading-relaxed">
-              <p className="font-light ml-8 cursor-default hover:scale-110 transition-transform">
+            <div className="text-left  text-2xl mt-8 text-slate-500 align-baseline leading-relaxed ">
+              <p className="font-light ml-8">
                 PJ, híbrida (2x ou 3x por semana). O escritório é ao lado do metrô Faria Lima.
                 Quando fazemos uma jornada de atendimento, frequentemente temos que nos conectar a APIs existentes 
                 de nossos clientes. A plataforma contém uma IDE completa em Typescript e recursos avançados para fazer isso tipo de conexão.

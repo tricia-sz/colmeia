@@ -23,7 +23,7 @@ export default function RootLayout({
     
     <html lang="en">
       <body className={spartan.className}>
-        <main className="bg-gray-100 min-h-screen flex flex-col items-center">
+        <main className="bg-slate-300 min-h-screen flex flex-col items-center">
           <nav className="w-full bg-slate-950 h-24 flex items-center justify-between px-24">
             <div className="flex gap-6">
             <section className="container flex items-center gap-3">

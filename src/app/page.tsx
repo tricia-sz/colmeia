@@ -46,7 +46,7 @@ export default function Home() {
     {/* QUESTOES */}
 
     <h2 className="text-4xl text-emerald-700 mb-10 mt-16">Questões</h2>
-    <section className="text-3xl bg-emerald-400 py-4 px-4 justify-center items-center container rounded-md">
+    <section className="text-3xl bg-slate-400 py-4 px-4 justify-center items-center container rounded-xl mb-8">
       <div className="">
         <p className="text-emerald-900 text-3xl items-center flex  mb-2 mt-4">Questão 1:</p>
         <p className="text-emerald-900 text-2xl font">
@@ -56,7 +56,7 @@ export default function Home() {
         <span className="text-emerald-700 pl-4 text-lg">
           Código resolvido:
           <div>
-            <Image alt="codigo resolvido" src={fizzbuzz}>
+            <Image alt="codigo resolvido" src={fizzbuzz}  className="object-cover rounded-xl mb-4" >
 
             </Image>
           </div>
@@ -64,7 +64,7 @@ export default function Home() {
         </span>
       </div>
     </section>
-    <section className="text-3xl bg-emerald-400 py-4 px-4 justify-center items-center container ">
+    <section className="text-3xl bg-slate-400 py-4 px-4 justify-center items-center container rounded-xl mb-4 ">
       <div className="">
         <p className="text-emerald-900 text-3xl items-center flex  mb-2 mt-4">Questão 2:</p>
         <p className="text-emerald-900 text-2xl font">
@@ -77,7 +77,7 @@ export default function Home() {
         <span className="text-emerald-700 pl-4 text-lg">
           Código resolvido:
           <div>
-            <Image alt="codigo resolvido" src={book}>
+            <Image alt="codigo resolvido" src={book}  className="object-cover rounded-xl mb-4" >
 
             </Image>
           </div>

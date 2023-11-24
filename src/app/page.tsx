@@ -50,9 +50,8 @@ export default function Home() {
       <div className="">
         <p className="text-emerald-900 text-3xl items-center flex  mb-2 mt-4">Questão 1:</p>
         <p className="text-emerald-900 text-2xl font">
-         O parâmetro numbers é um Array Sua tarefa é percorrer esse array e:
-         se for divizivel por 5, print "buzz"
-         se for divisivel por 3 e 5, print "fizzBuzz"
+          O parâmetro numbers é um Array. Sua tarefa é percorrer esse array e:
+          se for divizivel por 5, print "buzz". Se for divisivel por 3 e 5, print "fizzBuzz"
         </p>
         <span className="text-emerald-700 pl-4 text-lg">
           Código resolvido:

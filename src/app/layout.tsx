@@ -34,9 +34,9 @@ export default function RootLayout({
             </section>
             </div>
             <div className="flex justify-center items-center gap-20 text-xl">
-              <Link href={""} className="text-slate-500 hover:text-emerald-500">Candidato</Link>
-              <Link href={""} className="text-slate-500 hover:text-emerald-500">Sobre a Colmeia</Link>
-              <Link href={""} className="text-slate-500 hover:text-emerald-500">Sobre a Vaga</Link>
+              <Link href={""} className="text-slate-500 hover:text-emerald-500 cursor-default hover:scale-110 transition-transform">Candidato</Link>
+              <Link href={""} className="text-slate-500 hover:text-emerald-500 cursor-default hover:scale-110 transition-transform">Sobre a Colmeia</Link>
+              <Link href={""} className="text-slate-500 hover:text-emerald-500 cursor-default hover:scale-110 transition-transform">Sobre a Vaga</Link>
             </div>
             <div className="text-emerald-400 hover:text-slate-500">
              <MdHive size={30} />Sair

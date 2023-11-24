@@ -14,7 +14,7 @@ export default function Home() {
       <Patricia />
     </div>
     <div className="flex container justify-center items-center">
-     <section className=" w-full container gap-2 py-16 px-4">
+     <section className=" w-full container gap-2 py-16 px-4 cursor-default hover:scale-110 transition-transform">
         <div className=" w-full flex">
          <h1 className="text-left font-bold text-3xl  text-slate-700">Sobre a Colmeia</h1>
         </div>
@@ -27,7 +27,7 @@ export default function Home() {
           </div>
       </section>
      <MdHive size={150} className="text-slate-400"/>
-      <section className=" w-full container gap-2 py-16 px-4">
+      <section className=" w-full container gap-2 py-16 px-4 cursor-default hover:scale-110 transition-transform">
         <div className=" w-full flex ml-4">
          <h1 className="text-left font-bold text-3xl  text-slate-700">Sobre a Vaga: <span className=" text-emerald-500 font-medium">Desenvolvedor de APIs – Javascript</span></h1>
         </div>
@@ -56,7 +56,7 @@ export default function Home() {
         <span className="text-emerald-700 pl-4 text-lg">
           Código resolvido:
           <div>
-            <Image alt="codigo resolvido" src={fizzbuzz}  className="object-cover rounded-xl mb-4" >
+            <Image alt="codigo resolvido" src={fizzbuzz}  className="object-cover rounded-xl mb-4 cursor-default hover:scale-110 transition-transform" >
 
             </Image>
           </div>
@@ -77,7 +77,7 @@ export default function Home() {
         <span className="text-emerald-700 pl-4 text-lg">
           Código resolvido:
           <div>
-            <Image alt="codigo resolvido" src={book}  className="object-cover rounded-xl mb-4" >
+            <Image alt="codigo resolvido" src={book}  className="object-cover rounded-xl mb-4 cursor-default hover:scale-110 transition-transform" >
 
             </Image>
           </div>

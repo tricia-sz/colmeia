@@ -7,7 +7,7 @@ export default function Header() {
     <nav className="w-full bg-slate-950 h-24 flex items-center justify-between px-24">
       <div className="flex gap-6">
       <section className="container flex items-center gap-3">
-        <Link href={"https://colmeia.me/"} className="flex gap-2 items-center hover:text-slate-500">
+        <Link href={"https://colmeia.me/"} className="flex gap-2 items-center hover:text-slate-500 cursor-default hover:scale-110 transition-transform">
           <FaForumbee size={50} className="text-emerald-400"/>
           <h1 className="font-bold text-3xl text-emerald-400">Colmeia Test</h1>
         </Link>
@@ -18,7 +18,7 @@ export default function Header() {
         <Link href={""} className="text-slate-500 hover:text-emerald-500 cursor-default hover:scale-110 transition-transform">Sobre a Colmeia</Link>
         <Link href={""} className="text-slate-500 hover:text-emerald-500 cursor-default hover:scale-110 transition-transform">Sobre a Vaga</Link>
       </div>
-      <div className="text-emerald-400 hover:text-slate-500">
+      <div className="text-slate-400 hover:text-emerald-400">
         <MdHive size={30} />Sair
       </div>
     </nav>

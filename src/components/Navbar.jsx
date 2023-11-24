@@ -14,7 +14,6 @@ function Navbar() {
               <h1 className="font-bold text-3xl text-emerald-400">Colmeia Test</h1>
             </Link>
         </section>
-
         <div className="text-emerald-400 hover:text-slate-500">
           <MdHive size={30} />Sair
         </div>

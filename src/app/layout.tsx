@@ -18,7 +18,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    
     <html lang="en">
       <body className={spartan.className}>
         <main className="bg-slate-300 min-h-screen flex flex-col items-center">

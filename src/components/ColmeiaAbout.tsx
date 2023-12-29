@@ -9,7 +9,8 @@ export default function ColmeiaAbout() {
       <div>
         <div className="text-left  text-2xl mt-6 text-slate-500 align-baseline leading-relaxed">
           <p className="font-light ">
-          A <Link href="https://colmeia.me/" className="text-emerald-500 font-bold">Colmeia</Link> é a tecnologia líder do mercado em comunicação digital. A plataforma possui atendimento automatizado, atendimento humano, marketing e analytics. Recebemos milhares de conexões por segundo, trabalhamos com tecnologia de ponta, clientes importantes. 
+          A <Link href="https://colmeia.me/" className="text-emerald-500 font-bold">Colmeia</Link> É a tecnologia líder do mercado em comunicação digital. A plataforma possui atendimento automatizado, atendimento humano, marketing e analytics. 
+           Recebem milhares de conexões por segundo, trabalham com tecnologia de ponta e clientes importantes. 
           </p>
         </div>
       </div>

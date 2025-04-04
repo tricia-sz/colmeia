@@ -1,7 +1,7 @@
 # 🐝 Colmeia Test 🐝
 
 <div align="center">
-<img src="https://github.com/tricia-sz/list-of-countries-with-nextjs/blob/main/.gitassets/capa.png?raw=true" width="350" />
+<img src="https://github.com/tricia-sz/colmeia/blob/main/.gitassets/capa.png?raw=true" width="350" />
 
 ---
 
@@ -21,7 +21,7 @@
 </div>
 </div>
 
-### Projeto Test Nex14
+### Projeto Colmeia Test - Site com teste basico js
 
 ### SITE EM PRODUÇÃO:
 
